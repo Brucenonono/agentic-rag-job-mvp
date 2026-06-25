@@ -1,0 +1,21 @@
+Bruce Lee
+
+Summary
+Applied ML student focused on ranking, retrieval, and LLM applications.
+
+Education
+Tsinghua University
+- BEng in Automation
+
+Experience
+Research Intern at Vision Lab
+- Built Python tooling for experiment analysis
+- Trained PyTorch models for document classification
+
+Projects
+Resume Matching System
+- Built a hybrid retrieval prototype with BM25 and FAISS
+- Evaluated embedding-based ranking for internship JD matching
+
+Skills
+Python, PyTorch, FAISS, BM25, pandas

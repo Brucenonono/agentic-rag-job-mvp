@@ -1,0 +1,9 @@
+AI Algorithm Intern
+Company: Example AI Lab
+Work on retrieval and ranking systems for recruitment intelligence.
+
+Requirements:
+- Strong Python skills and solid machine learning fundamentals
+- Experience with PyTorch, transformers, or deep learning projects
+- Familiarity with BM25, embeddings, or FAISS is a plus
+- Good communication and collaboration skills

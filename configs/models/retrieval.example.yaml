@@ -1,0 +1,26 @@
+chunking:
+  source_units:
+    - resume_bullets
+    - project_bullets
+    - project_summaries
+  max_tokens_per_chunk: 256
+  overlap_tokens: 32
+
+lexical:
+  enabled: true
+  top_k: 20
+
+dense:
+  enabled: true
+  model_name: BAAI/bge-small-en-v1.5
+  top_k: 20
+
+hybrid:
+  merge_strategy: weighted_sum
+  lexical_weight: 0.4
+  dense_weight: 0.6
+
+rerank:
+  enabled: true
+  model_name: BAAI/bge-reranker-base
+  top_k: 10

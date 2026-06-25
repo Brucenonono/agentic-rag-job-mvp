@@ -1,0 +1,18 @@
+name: keyword-only
+description: lexical baseline without dense retrieval, rerank, or judge
+retrieval:
+  lexical: true
+  dense: false
+  rerank: false
+scoring:
+  keyword_coverage: true
+  semantic_similarity: false
+  evidence_relevance: false
+  llm_judge: false
+generation:
+  rewrite: false
+  interview: false
+metrics:
+  - evidence_recall_at_k
+  - skill_coverage
+  - gap_precision

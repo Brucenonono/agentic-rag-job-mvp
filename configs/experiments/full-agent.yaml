@@ -1,0 +1,19 @@
+name: full-agent
+description: full pipeline with hybrid retrieval, rerank, judge, rewrite, and interview prep
+retrieval:
+  lexical: true
+  dense: true
+  rerank: true
+scoring:
+  keyword_coverage: true
+  semantic_similarity: true
+  evidence_relevance: true
+  llm_judge: true
+generation:
+  rewrite: true
+  interview: true
+metrics:
+  - evidence_recall_at_k
+  - skill_coverage
+  - gap_precision
+  - rewrite_faithfulness

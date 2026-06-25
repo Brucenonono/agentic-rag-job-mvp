@@ -1,0 +1,15 @@
+provider: ""
+model: ""
+base_url: ""
+timeout_seconds: 60
+temperature:
+  parse: 0.0
+  judge: 0.1
+  rewrite: 0.3
+  interview: 0.2
+prompt_files:
+  jd_parse: src/resume_agent/prompts/jd_parse.md
+  resume_parse: src/resume_agent/prompts/resume_parse.md
+  judge: src/resume_agent/prompts/judge_match.md
+  rewrite: src/resume_agent/prompts/rewrite_resume.md
+  interview: src/resume_agent/prompts/interview_prep.md
