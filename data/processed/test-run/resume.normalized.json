@@ -1,0 +1,163 @@
+{
+  "candidate_name": "Bruce Lee",
+  "summary": "Applied ML student focused on ranking, retrieval, and LLM applications.",
+  "education": [
+    {
+      "school": "Tsinghua University",
+      "degree": null,
+      "field_of_study": null,
+      "start_date": null,
+      "end_date": null,
+      "highlights": [
+        "BEng in Automation"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Vision Lab",
+      "role": "Research Intern",
+      "summary": null,
+      "start_date": null,
+      "end_date": null,
+      "highlights": [
+        "Built Python tooling for experiment analysis",
+        "Trained PyTorch models for document classification"
+      ],
+      "skills": [
+        {
+          "name": "python",
+          "category": "programming_language",
+          "normalized_name": "python",
+          "source": "resume",
+          "confidence": 1.0
+        },
+        {
+          "name": "pytorch",
+          "category": "framework",
+          "normalized_name": "pytorch",
+          "source": "resume",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Resume Matching System",
+      "summary": "Built a hybrid retrieval prototype with BM25 and FAISS",
+      "highlights": [
+        "Built a hybrid retrieval prototype with BM25 and FAISS",
+        "Evaluated embedding-based ranking for internship JD matching"
+      ],
+      "skills": [
+        {
+          "name": "faiss",
+          "category": "tool",
+          "normalized_name": "faiss",
+          "source": "project",
+          "confidence": 1.0
+        },
+        {
+          "name": "bm25",
+          "category": "ml",
+          "normalized_name": "bm25",
+          "source": "project",
+          "confidence": 1.0
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "python",
+      "category": "programming_language",
+      "normalized_name": "python",
+      "source": "resume",
+      "confidence": 1.0
+    },
+    {
+      "name": "pytorch",
+      "category": "framework",
+      "normalized_name": "pytorch",
+      "source": "resume",
+      "confidence": 1.0
+    },
+    {
+      "name": "pandas",
+      "category": "tool",
+      "normalized_name": "pandas",
+      "source": "resume",
+      "confidence": 1.0
+    },
+    {
+      "name": "faiss",
+      "category": "tool",
+      "normalized_name": "faiss",
+      "source": "resume",
+      "confidence": 1.0
+    },
+    {
+      "name": "bm25",
+      "category": "ml",
+      "normalized_name": "bm25",
+      "source": "resume",
+      "confidence": 1.0
+    }
+  ],
+  "evidence_pool": [
+    {
+      "id": "experience-1",
+      "text": "Built Python tooling for experiment analysis",
+      "source_type": "experience",
+      "source_ref": "experience:1",
+      "skill_refs": [
+        "python"
+      ],
+      "project_ref": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "experience-2",
+      "text": "Trained PyTorch models for document classification",
+      "source_type": "experience",
+      "source_ref": "experience:2",
+      "skill_refs": [
+        "pytorch"
+      ],
+      "project_ref": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "project-1",
+      "text": "Built a hybrid retrieval prototype with BM25 and FAISS",
+      "source_type": "project",
+      "source_ref": "project:1",
+      "skill_refs": [
+        "faiss",
+        "bm25"
+      ],
+      "project_ref": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "project-2",
+      "text": "Evaluated embedding-based ranking for internship JD matching",
+      "source_type": "project",
+      "source_ref": "project:2",
+      "skill_refs": [],
+      "project_ref": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "education-1",
+      "text": "BEng in Automation",
+      "source_type": "education",
+      "source_ref": "education:1",
+      "skill_refs": [],
+      "project_ref": null,
+      "confidence": 1.0
+    }
+  ],
+  "raw_text": "Bruce Lee\n\nSummary\nApplied ML student focused on ranking, retrieval, and LLM applications.\n\nEducation\nTsinghua University\n- BEng in Automation\n\nExperience\nResearch Intern at Vision Lab\n- Built Python tooling for experiment analysis\n- Trained PyTorch models for document classification\n\nProjects\nResume Matching System\n- Built a hybrid retrieval prototype with BM25 and FAISS\n- Evaluated embedding-based ranking for internship JD matching\n\nSkills\nPython, PyTorch, FAISS, BM25, pandas"
+}

@@ -8,7 +8,7 @@ class ResumeAgentModel(BaseModel):
 
     model_config = ConfigDict(
         extra="forbid",
-        str_strip_whitespace=True,
+        str_strip_whitespace=True,  #去掉开头空格
         validate_assignment=True,
         populate_by_name=True,
     )

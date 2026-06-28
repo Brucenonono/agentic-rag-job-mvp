@@ -1,10 +1,21 @@
 # Retrieval
 
-Future home of retrieval interfaces and implementations.
+Minimal retrieval layer for the first runnable matching baseline.
 
-Planned responsibilities:
+Current scope:
 
-- lexical retrieval over resume and project evidence
-- dense retrieval over chunk embeddings
-- hybrid score merging
-- cross-encoder reranking
+- coarse lexical or BM25 retrieval over `Resume.evidence_pool`
+- dense retrieval with sentence-transformers and FAISS
+- hybrid retrieval with BM25 + dense RRF fusion
+- thin rerank stage over retrieved candidates
+- stable retrieval result contracts that expose both coarse and rerank scores
+
+Current entrypoints:
+
+- `retrieve_for_requirement()`
+- `retrieve_for_jd()`
+
+Design note:
+
+- The current rerank stage is `heuristic_rerank`, not a Cross-Encoder.
+- The interface is shaped so a future hybrid retriever or cross-encoder reranker can slot in without changing callers.

@@ -1,0 +1,260 @@
+{
+  "jd_title": "AI Algorithm Intern",
+  "candidate_name": "Bruce Lee",
+  "top_k": 3,
+  "candidate_k": 5,
+  "retrieval_method": "hybrid",
+  "rerank_method": "heuristic_rerank",
+  "results": [
+    {
+      "requirement_index": 0,
+      "requirement_text": "Strong Python skills and solid machine learning fundamentals",
+      "candidate_count": 5,
+      "retrieved": [
+        {
+          "evidence_id": "experience-1",
+          "score": 0.3146,
+          "retrieval_score": 0.032787,
+          "rerank_score": 0.3146,
+          "matched_terms": [
+            "python"
+          ],
+          "evidence": {
+            "id": "experience-1",
+            "text": "Built Python tooling for experiment analysis",
+            "source_type": "experience",
+            "source_ref": "experience:1",
+            "skill_refs": [
+              "python"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "experience-2",
+          "score": 0.0,
+          "retrieval_score": 0.032258,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "experience-2",
+            "text": "Trained PyTorch models for document classification",
+            "source_type": "experience",
+            "source_ref": "experience:2",
+            "skill_refs": [
+              "pytorch"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "project-2",
+          "score": 0.0,
+          "retrieval_score": 0.031498,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "project-2",
+            "text": "Evaluated embedding-based ranking for internship JD matching",
+            "source_type": "project",
+            "source_ref": "project:2",
+            "skill_refs": [],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "requirement_index": 1,
+      "requirement_text": "Experience with PyTorch, transformers, or deep learning projects",
+      "candidate_count": 5,
+      "retrieved": [
+        {
+          "evidence_id": "experience-2",
+          "score": 0.2729,
+          "retrieval_score": 0.032787,
+          "rerank_score": 0.2729,
+          "matched_terms": [
+            "pytorch"
+          ],
+          "evidence": {
+            "id": "experience-2",
+            "text": "Trained PyTorch models for document classification",
+            "source_type": "experience",
+            "source_ref": "experience:2",
+            "skill_refs": [
+              "pytorch"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "experience-1",
+          "score": 0.0,
+          "retrieval_score": 0.032258,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "experience-1",
+            "text": "Built Python tooling for experiment analysis",
+            "source_type": "experience",
+            "source_ref": "experience:1",
+            "skill_refs": [
+              "python"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "project-1",
+          "score": 0.0,
+          "retrieval_score": 0.031498,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "project-1",
+            "text": "Built a hybrid retrieval prototype with BM25 and FAISS",
+            "source_type": "project",
+            "source_ref": "project:1",
+            "skill_refs": [
+              "faiss",
+              "bm25"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "requirement_index": 2,
+      "requirement_text": "Familiarity with BM25, embeddings, or FAISS is a plus",
+      "candidate_count": 5,
+      "retrieved": [
+        {
+          "evidence_id": "project-1",
+          "score": 0.4944,
+          "retrieval_score": 0.032787,
+          "rerank_score": 0.4944,
+          "matched_terms": [
+            "bm25",
+            "faiss"
+          ],
+          "evidence": {
+            "id": "project-1",
+            "text": "Built a hybrid retrieval prototype with BM25 and FAISS",
+            "source_type": "project",
+            "source_ref": "project:1",
+            "skill_refs": [
+              "faiss",
+              "bm25"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "experience-1",
+          "score": 0.0,
+          "retrieval_score": 0.032002,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "experience-1",
+            "text": "Built Python tooling for experiment analysis",
+            "source_type": "experience",
+            "source_ref": "experience:1",
+            "skill_refs": [
+              "python"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "project-2",
+          "score": 0.0,
+          "retrieval_score": 0.031754,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "project-2",
+            "text": "Evaluated embedding-based ranking for internship JD matching",
+            "source_type": "project",
+            "source_ref": "project:2",
+            "skill_refs": [],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "requirement_index": 3,
+      "requirement_text": "Good communication and collaboration skills",
+      "candidate_count": 5,
+      "retrieved": [
+        {
+          "evidence_id": "experience-1",
+          "score": 0.0,
+          "retrieval_score": 0.032787,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "experience-1",
+            "text": "Built Python tooling for experiment analysis",
+            "source_type": "experience",
+            "source_ref": "experience:1",
+            "skill_refs": [
+              "python"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "project-1",
+          "score": 0.0,
+          "retrieval_score": 0.032002,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "project-1",
+            "text": "Built a hybrid retrieval prototype with BM25 and FAISS",
+            "source_type": "project",
+            "source_ref": "project:1",
+            "skill_refs": [
+              "faiss",
+              "bm25"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        },
+        {
+          "evidence_id": "experience-2",
+          "score": 0.0,
+          "retrieval_score": 0.031754,
+          "rerank_score": 0.0,
+          "matched_terms": [],
+          "evidence": {
+            "id": "experience-2",
+            "text": "Trained PyTorch models for document classification",
+            "source_type": "experience",
+            "source_ref": "experience:2",
+            "skill_refs": [
+              "pytorch"
+            ],
+            "project_ref": null,
+            "confidence": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}

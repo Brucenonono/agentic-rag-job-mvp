@@ -1,0 +1,101 @@
+{
+  "title": "AI Algorithm Intern",
+  "company": "Example AI Lab",
+  "summary": "Work on retrieval and ranking systems for recruitment intelligence.",
+  "requirements": [
+    {
+      "text": "Strong Python skills and solid machine learning fundamentals",
+      "category": "hard_skill",
+      "importance": "preferred",
+      "is_explicit": true,
+      "skill_refs": [
+        "python",
+        "machine learning"
+      ]
+    },
+    {
+      "text": "Experience with PyTorch, transformers, or deep learning projects",
+      "category": "hard_skill",
+      "importance": "preferred",
+      "is_explicit": true,
+      "skill_refs": [
+        "pytorch",
+        "deep learning",
+        "transformers"
+      ]
+    },
+    {
+      "text": "Familiarity with BM25, embeddings, or FAISS is a plus",
+      "category": "hard_skill",
+      "importance": "bonus",
+      "is_explicit": true,
+      "skill_refs": [
+        "faiss",
+        "bm25"
+      ]
+    },
+    {
+      "text": "Good communication and collaboration skills",
+      "category": "soft_skill",
+      "importance": "preferred",
+      "is_explicit": true,
+      "skill_refs": []
+    }
+  ],
+  "hard_skills": [
+    {
+      "name": "python",
+      "category": "programming_language",
+      "normalized_name": "python",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "pytorch",
+      "category": "framework",
+      "normalized_name": "pytorch",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "faiss",
+      "category": "tool",
+      "normalized_name": "faiss",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "bm25",
+      "category": "ml",
+      "normalized_name": "bm25",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "machine learning",
+      "category": "ml",
+      "normalized_name": "machine learning",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "deep learning",
+      "category": "ml",
+      "normalized_name": "deep learning",
+      "source": "jd",
+      "confidence": 1.0
+    },
+    {
+      "name": "transformers",
+      "category": "framework",
+      "normalized_name": "transformers",
+      "source": "jd",
+      "confidence": 1.0
+    }
+  ],
+  "soft_signals": [
+    "communication",
+    "collaboration"
+  ],
+  "raw_text": "AI Algorithm Intern\nCompany: Example AI Lab\nWork on retrieval and ranking systems for recruitment intelligence.\n\nRequirements:\n- Strong Python skills and solid machine learning fundamentals\n- Experience with PyTorch, transformers, or deep learning projects\n- Familiarity with BM25, embeddings, or FAISS is a plus\n- Good communication and collaboration skills"
+}
